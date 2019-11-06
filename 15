@@ -1,0 +1,19 @@
+#include <iostream>
+# include <cmath>
+using namespace std;
+
+//Дана площадь S круга. Найти его диаметр D и длину L окружности,
+//ограничивающей этот круг, учитывая, что L = 2·pi·R,
+//значения pi использовать 3.14.
+int main()
+{
+    int p=3.14;
+   int s;
+   cin >> s;
+   int r=sqrt(s/p);
+    int D=2*r;
+    int L=2*p*r;
+    cout<< "диаметр="<< D<< endl;
+    cout<< "длина окружности="<<L<<endl;
+    return 0;
+}
