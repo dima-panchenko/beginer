@@ -1,0 +1,16 @@
+#include <iostream>
+# include <cmath>
+using namespace std;
+
+//Дана длина ребра куба a. Найти объем куба V = a3 и площадь его
+//поверхности S = 6·a2.
+int main()
+{
+    double a;
+    cin >> a;
+    int V=pow(a,3);
+    int S=6* pow(a,2);
+    cout<< "объём="<<V<< endl;
+    cout<<"площадь поверхности="<<S<< endl;
+    return 0;
+}
