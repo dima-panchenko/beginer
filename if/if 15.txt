@@ -1,0 +1,93 @@
+/*If15. Даны три числа. Найти сумму двух наибольших из них*/
+
+#include <iostream>
+
+using namespace std;
+int main() {
+        int a,b,c;
+
+	cin>>a>>b>>c;
+
+	int sum=0;
+
+	if (a>b && a>c)
+
+	if(b>c)
+
+     sum=a+b;
+
+	if (a>b && a>c)
+
+	if (c>b)
+
+	 sum=a+c;
+
+	if (b>a&&b>c)
+
+	if (a>c)
+
+	 sum=b+a;
+
+	if (b>a&& b>c)
+
+	if (c>a)
+
+	 sum=b+c;
+
+	 if (c>a&&c>b)
+
+	 if (a>b)
+
+	 sum=c+a;
+
+	 if (c>a && c>b)
+
+	 if (b>a)
+
+	 sum=c+b;
+
+	if (a==b&&a==c&&b==c)
+
+	cout<< "Error ";
+
+	if (a==b)
+
+	if (a>c)
+
+	sum=a+b;
+
+	if (a==b)
+
+	if (a<c)
+
+	cout<< "Error ";
+
+	if (a==c)
+
+	if (a>b)
+
+	sum=a+c;
+
+	if (a==c)
+
+	if (a<b)
+
+	cout<< "Error ";
+
+	if (b==c)
+
+	if (b>a)
+
+	sum=b+a;
+
+	if (b==c)
+
+	if (b<a)
+
+	cout << "Error ";
+
+	cout<<"sum="<<sum<< endl;
+
+return 0;
+
+}

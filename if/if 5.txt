@@ -1,0 +1,38 @@
+/*If5. Даны три целых числа. Найти количество положительных и количество
+отрицательных чисел в исходном наборе.*/
+
+#include <iostream>
+
+using namespace std;
+int main() {
+        int z,x,c;
+
+	int pos=0;
+
+	int neg=0;
+
+	cin>>z>>x>>c;
+
+
+	
+if (z>0)pos++;
+
+	else neg++;
+
+	if (x>0)pos++;
+
+	else neg++;
+
+	if (c>0)pos++;
+
+	else neg++;
+
+
+	
+cout<< "positiv=" << pos<< endl;
+
+	cout<<"negativ=" << neg<< endl;
+
+return 0;
+
+}
