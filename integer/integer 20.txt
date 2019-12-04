@@ -1,0 +1,17 @@
+/*Integer20. С начала суток прошло N секунд (N— целое). 
+Найти количество полных часов, прошедших с начала суток*/
+
+#include <iostream>
+
+using namespace std;
+int main() {
+setlocale(LC_ALL, "Rus"); 
+        int N;
+
+	cin >> N;
+
+	cout<<"Количество полных часов=" << (N/60)/60<<endl;
+
+return 0;
+
+}	
