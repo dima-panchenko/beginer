@@ -1,0 +1,21 @@
+/*Boolean15 Даны три целых числа: A, B, C.
+Проверить истинность высказывания:
+ «Ровно два из чисел A, B, C являются положительными».*/
+
+#include <iostream>
+
+using namespace std;
+
+
+int main() {
+        int A,B,C;
+
+	cin>>A>>B>>C;
+
+	bool positive ((A>0&&B>0&&C<0)||(A>0&&B<0&&C>0)||(A<0&&B>0&&C>0));
+
+	cout<<boolalpha<<positive<<endl;
+
+return 0;
+
+}

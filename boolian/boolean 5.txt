@@ -1,0 +1,24 @@
+/*Boolean5 Даны два целых числа: A, B. Проверить истинность высказывания:
+«Справедливы неравенства A > 0 или B < -2».*/
+
+#include <iostream>
+
+using namespace std;
+
+
+int main() {
+        int A,B;
+
+	cin>>A>>B;
+
+	bool positive=A>=0;
+
+	bool negative=B<-2;
+
+	cout<<boolalpha<<positive<<endl;
+
+	cout<<boolalpha<<negative<<endl;
+
+return 0;
+
+}

@@ -1,0 +1,20 @@
+/*Boolean10 Даны два целых числа: A, B.
+Проверить истинность высказывания: «Ровно одно из чисел A и B нечетное».*/
+
+#include <iostream>
+
+using namespace std;
+
+
+int main() {
+        int A,B;
+
+	cin>>A>>B;
+
+	bool positive=(A%2==0 && B%2!=0)||(A%2!=0 && B%2==0);
+
+	cout<<boolalpha<<positive<<endl;
+
+return 0;
+
+}
