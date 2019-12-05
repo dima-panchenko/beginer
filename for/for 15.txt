@@ -1,0 +1,35 @@
+/*For15 Дано вещественное число A и целое число N (> 0).
+ Найти A в степени N:
+N = A·A· . . . ·A
+(числа A перемножаются N раз).
+
+#include <iostream>
+
+using namespace std;
+
+
+int main() {
+        int a, n;
+
+	int r=1;
+
+        cout<< "Введите  число"<<endl;
+
+        cin>>a;
+
+        cout<< "Введите стень числа"<< endl;
+
+        cin>>n;
+
+        for(int i=0; i<n; i++){
+
+                r *=a;
+
+        }
+ 
+      cout<<r<<endl;
+
+   return 0;
+
+
+}

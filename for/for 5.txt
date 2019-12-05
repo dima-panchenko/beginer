@@ -1,0 +1,23 @@
+/*For5 Дано вещественное число — цена 1 кг конфет. Вывести стоимость 0.1,
+0.2, . . . , 1 кг конфет.*/
+
+#include <iostream>
+
+using namespace std;
+
+
+int main() {
+        float pr;
+
+	cin>>pr;
+
+	for(float i=0.1;i<1.1;i+=0.1){
+
+		cout<<"стоимость"<<i<<"кг конфет "<<i*pr<< endl;
+
+	};
+
+return 0;
+
+
+}
