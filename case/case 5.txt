@@ -1,0 +1,40 @@
+/*Case5. јрифметические действи€ над числами пронумерованы следующим
+образом: 1 Ч сложение, 2 Ч вычитание, 3 Ч умножение, 4 Ч деление. ƒан
+номер действи€ N (целое число в диапазоне 1Ц4) и вещественные числа A
+и B (¬ не равно 0). ¬ыполнить над числами указанное действие и вывести
+результат.*/
+
+#include <iostream>
+
+using namespace std;
+
+
+int main() {
+setlocale(LC_ALL, "Rus");
+	int N;
+
+	cout<<"¬ведите номер операции"<< endl;
+
+	cin>>N;
+
+	float A,B;
+
+	cout<< "¬ведите числа"<< endl;
+
+	cin>>A>>B;
+
+	switch (N){
+
+		case 1:cout<<A+B; break;
+
+		case 2:cout<<A-B; break;
+
+		case 3:cout<<A*B; break;
+
+		case 4:cout<<A/B; break;
+
+	};
+
+return 0;
+
+}

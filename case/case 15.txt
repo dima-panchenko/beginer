@@ -1,0 +1,61 @@
+/*Case15. ћаст€м игральных карт присвоены пор€дковые номера: 1 Ч пики,
+2 Ч трефы, 3 Ч бубны, 4 Ч червы. ƒостоинству карт, старших дес€тки,
+присвоены номера: 11 Ч валет, 12 Ч дама, 13 Ч король, 14 Ч туз. ƒаны
+два целых числа: N Ч достоинство (6 < N < 14) и M Ч масть карты
+(1 < M > 4). ¬ывести название соответствующей карты вида Ђшестерка
+бубенї, Ђдама червейї, Ђтуз трефї и т. п.*/? ?
+
+#include <iostream>
+
+using namespace std;
+
+
+int main() {
+setlocale(LC_ALL, "Rus");
+int N,M;
+
+	cout<<"¬ведите достоинство карты"<<endl;
+
+	cin>> N;
+
+	cout<<"¬ведите масть карты"<<endl;
+
+	cin>>M;
+	
+        switch (N){
+
+		case 6:cout<<"ЎестЄрка "; break;
+
+		case 7:cout<<"—емЄрка "; break;
+
+		case 8:cout<<"¬осьмЄрка "; break;
+
+		case 9:cout<<"ƒев€тка "; break;
+	
+	        case 10:cout<<"ƒес€тка "; break;
+
+		case 11:cout<<"¬алет "; break;
+
+		case 12:cout<<"ƒама "; break;
+
+		case 13:cout<<" ороль "; break;
+	
+	        case 14:cout<<"“уз "; break;
+
+	};
+
+	switch(M){
+
+		case 1:cout<<"ѕик"; break;
+
+		case 2:cout<<"“реф"; break;
+
+		case 3:cout<<"Ѕубен"; break;
+
+		case 4:cout<<"„ервей"; break;
+
+	};
+
+	return 0;
+
+}
